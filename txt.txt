@@ -1,0 +1,26 @@
+body (có class="bg-light")
+div.container.mt-4>div.d-flex.justify-content-beetwen.align-items-center.mb-3+div.card.mb-3.shadow-sm*3+div.text-center.mt-3.text-muted
+
+    header (<div> đầu tiên)
+    span.badge.bg-primary.fs-6+a.btn.btn-danger.btn-sm.ms-2[href=logout.php]
+
+    main (3 <div> tiếp theo)
+        Infor
+        div.card-header.fw-bold+div.card-body>form.row.g-3[method=get]>div.col-md-2*7
+        
+            Trong div
+            input.form-control[type=text id= name= placeholder= required]
+
+        Search
+        div.card-body>form.row.g-3.align-items-center[method=get]>div.col-md-3+div.col-md-2.d-grid*2
+
+            Trong div
+            input.form-control[type=text name= placeholder= required]
+            button.btn.btn-primary[type=submit name=]
+            a.btn.btn-secondary[href=index.php]
+
+        Table
+        div.card-body.table-responsive>table.table.table-bordered.table-hover.text-center.algin-middle>thead.table-dark>tr>th*7^^tbody
+
+    footer (<div> cuối cùng)
+    --không có gì
