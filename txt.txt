@@ -1,3 +1,4 @@
+index.php
 body (có class="bg-light")
 div.container.mt-4>div.d-flex.justify-content-beetwen.align-items-center.mb-3+div.card.mb-3.shadow-sm*3+div.text-center.mt-3.text-muted
 
@@ -24,3 +25,14 @@ div.container.mt-4>div.d-flex.justify-content-beetwen.align-items-center.mb-3+di
 
     footer (<div> cuối cùng)
     --không có gì
+    
+=====================================================
+login.php
+body (có class="bg-light")
+div.row.justify-content-center.align-items-center[style=min-height:100vh;]
+div.col-md-4>div.card.shadow>div.card-body>h3.text-center.mb-4+form[method=post]>(div.mb-3>label.form-label+input.form-control[type=text name= required])*2+button.btn.btn-primary.w-100^div.text-center.mt-3>a.text-decoration-none[href=forgot_pass.php]
+đổi 1 text thành password
+
+=====================================================
+forgot_pass.php
+giống login.php đổi href thành login.php
